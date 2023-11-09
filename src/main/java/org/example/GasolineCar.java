@@ -14,10 +14,7 @@ public class GasolineCar extends AFuelCar {
     public String toString() {
         return  super.toString() + "den kører på: " + getFuelType();
 
-        /*"registrationNumber: " + getRegistrationNumber() + "\n" +
-                "make: " + getMake() + "model: " + getModel() + "\n" +
-                "numberOfDoors: " + getNumberOfDoors() + "\n" +
-                "kmPrLitre: " + getKmPrLitre();*/
+
     }
 
     public int getRegistrationFee() {
@@ -35,7 +32,4 @@ public class GasolineCar extends AFuelCar {
         }
 
     }
-    //Registreringsafgiften skal beregnes ud fra beskrivelsen i toppen af opgaven.??????
-
-
 }

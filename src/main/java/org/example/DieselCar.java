@@ -5,7 +5,7 @@ public class DieselCar extends AFuelCar {
 
     private boolean particleFilter;
 
-    private boolean hasParticleFilter() { //fortæller om bilen har et partikelfilter monteret.
+    private boolean hasParticleFilter() {
         return true;
     }
 
@@ -43,6 +43,6 @@ public class DieselCar extends AFuelCar {
     }
 
 
-    //Registreringsafgiften skal beregnes ud fra beskrivelsen i toppen af opgaven.
+
 
 }
